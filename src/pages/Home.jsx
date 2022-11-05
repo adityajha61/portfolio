@@ -2,15 +2,23 @@ import React from 'react'
 import { LinkedIn, Email  } from '@mui/icons-material'
 import { GitHub } from '@mui/icons-material'
 import "../styles/Home.css"
+import { Link } from '@mui/material'
 const Home = () => {
   return (
     <div className='home'>
       <div className='about'>
         <h2>Hi, I am Aditya Jha.</h2>
         <div className='prompt'> <p> A Software Engineer at PayU looking to build cool things.</p>
+        <Link href="http://www.linkedin.com/in/adityajha61">
         <LinkedIn />
+        </Link>
+        <Link href="http://www.github.com/adityajha61">
         <GitHub />
+        </Link>
+        <Link href="mailto:adityajha15052@gmail.com">
         <Email />
+        </Link>
+        
         </div>
       </div>
       <div className='skills'>
