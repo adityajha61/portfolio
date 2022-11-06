@@ -1,8 +1,8 @@
 import React from 'react'
-import { LinkedIn, Email  } from '@mui/icons-material'
-import { GitHub } from '@mui/icons-material'
+import { LinkedIn, Email, Description  } from '@mui/icons-material'
+import { GitHub,Pages } from '@mui/icons-material'
 import "../styles/Home.css"
-import { Link } from '@mui/material'
+import { IconButton, Link } from '@mui/material'
 const Home = () => {
   return (
     <div className='home'>
@@ -18,7 +18,9 @@ const Home = () => {
         <Link href="mailto:adityajha15052@gmail.com">
         <Email />
         </Link>
-        
+        <Link href="https://drive.google.com/file/d/1zEt_nLQuA2ZqVso9sprHeK81YX9dptGp/view?usp=share_link">
+        <Description /> 
+        </Link>
         </div>
       </div>
       <div className='skills'>
